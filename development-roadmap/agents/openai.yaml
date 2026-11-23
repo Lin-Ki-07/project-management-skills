@@ -1,0 +1,4 @@
+interface:
+  display_name: "开发路线图与版本计划"
+  short_description: "将已确认需求拆成阶段、小目标与可核查的验收结果"
+  default_prompt: "使用 $development-roadmap 帮我根据项目现状制定下一版本的开发路线图。"

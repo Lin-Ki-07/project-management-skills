@@ -1,0 +1,4 @@
+interface:
+  display_name: "开源方案调研与选型"
+  short_description: "按需求比较开源项目的适配度、许可、成本与风险"
+  default_prompt: "使用 $open-source-solution-research 为我的项目筛选开源参考方案，并说明复用边界。"

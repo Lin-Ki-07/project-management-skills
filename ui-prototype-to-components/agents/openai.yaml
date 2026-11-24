@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 原型与组件交接"
+  short_description: "评审界面原型并拆分可逐项实现的前端组件"
+  default_prompt: "使用 $ui-prototype-to-components 帮我设计这个界面的原型，并在确认后拆分组件。"

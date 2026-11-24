@@ -1,0 +1,4 @@
+interface:
+  display_name: "小步开发与验收"
+  short_description: "按当前小目标实施改动、核对 diff 与验证结果"
+  default_prompt: "使用 $incremental-development 帮我完成路线图中的当前小目标，并核对验收结果。"

@@ -1,4 +1,4 @@
 interface:
   display_name: "UI 原型与组件交接"
-  short_description: "评审界面原型并拆分可逐项实现的前端组件"
-  default_prompt: "使用 $ui-prototype-to-components 帮我设计这个界面的原型，并在确认后拆分组件。"
+  short_description: "按需提供视觉案例，先出效果图，再做 Figma 原型与组件交接"
+  default_prompt: "使用 $ui-prototype-to-components 帮我设计界面：视觉方向模糊且无参考时先提供 5 个案例，用 Image 生成效果图并确认后，再制作 Figma 原型，原型确认后拆分组件。"

@@ -1,4 +1,4 @@
 interface:
   display_name: "产品发现到 PRD"
-  short_description: "逐轮澄清软件产品需求，撰写并修订 PRD"
-  default_prompt: "使用 $product-discovery-to-prd 帮我把软件产品想法梳理成可交接的 PRD。"
+  short_description: "收敛产品需求后生成 PRD，确认后交接设计与开发"
+  default_prompt: "使用 $product-discovery-to-prd 帮我澄清并收敛软件产品需求，收敛后生成 PRD，经我确认后再交接正式设计与开发。"

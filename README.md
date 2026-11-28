@@ -168,6 +168,7 @@ HTML 只在 Figma 无法调用、恢复尝试无效后作为兜底方案讨论�
 | 项目体检 | [体检记录](existing-project-review/assets/REVIEW.md) | [体检报告](existing-project-review/references/review-example.md) |
 | 代码实施 | [工作日志](incremental-development/assets/WORKLOG.md) | [小修复](incremental-development/references/fix-example.md) · [Demo 实施](incremental-development/references/demo-example.md) |
 | 验收收尾 | [验收记录](release-readiness/assets/ACCEPTANCE.md) | [版本与 Demo 收尾](release-readiness/references/closeout-example.md) |
+| 项目说明 | [项目 README](release-readiness/assets/PROJECT-README.md) | [README 编写规范](release-readiness/references/readme-guide.md) |
 | 跨会话接续 | [通用交接](templates/HANDOFF.md) | 引用项目已有需求、路线图与日志 |
 
 开源选型目前由技能正文提供报告要求，尚无独立配套模板与案例。
@@ -186,20 +187,44 @@ HTML 只在 Figma 无法调用、恢复尝试无效后作为兜底方案讨论�
 
 ```text
 项目管理skills/
-├── product-discovery-to-prd/       # 产品需求
-├── open-source-solution-research/ # 开源选型
-├── development-roadmap/           # 开发路线图
-├── ui-prototype-to-components/    # 效果图、Figma 与设计交接
-├── existing-project-review/       # 项目体检
-├── incremental-development/       # 小步实施与日志
-├── release-readiness/             # 验收收尾
-├── templates/HANDOFF.md           # 通用交接模板
-├── evaluation/                    # 评测方法、记录与夹具
-├── LICENSE
-└── README.md
+├── README.md                          # 从这里选择入口、查看用法
+├── LICENSE                            # 仓库许可证
+│
+├── product-discovery-to-prd/           # 需求：轻量 PRD 与场景收敛
+├── open-source-solution-research/      # 选型：来源、许可与适配成本
+├── development-roadmap/                # 规划：当前步骤、依赖与验收
+├── ui-prototype-to-components/         # 设计：效果图 → Figma → 组件交接
+├── existing-project-review/            # 体检：发现、证据与修复顺序
+├── incremental-development/            # 实施：改动、验证与工作日志
+├── release-readiness/                  # 收尾：验收、README 与交接
+│
+├── assets/                            # 本仓库首页展示素材
+│   ├── project-mark.svg
+│   └── workflow-overview.svg
+├── templates/
+│   └── HANDOFF.md                     # 项目跨会话交接模板
+└── evaluation/                        # 评测方法、案例与离线夹具
+    ├── README.md                      # 评测方法入口
+    ├── CASE.md                        # 评测记录模板
+    ├── demo-workflow-review.md         # Demo 文档串联检查
+    ├── incremental-development-smoke.md
+    └── fixtures/search-whitespace/     # 可复跑的搜索修复夹具
 ```
 
-每个技能都有 `SKILL.md` 与 `agents/openai.yaml`；有配套资源的技能另含 `assets/` 和 `references/`。独立安装时复制整个技能文件夹，根目录的通用交接和评测材料按需另外取用。
+技能内部按职责组织。以产品需求技能为例：
+
+```text
+product-discovery-to-prd/
+├── SKILL.md                           # AI 读取的核心规则与资源入口
+├── agents/
+│   └── openai.yaml                    # 技能名称、简介与调用提示
+├── assets/
+│   └── PRD.md                         # 复制到具体项目的产物模板
+└── references/
+    └── discovery-example.md            # 按需读取的说明与案例
+```
+
+各技能的配套文件不同，以实际目录为准。独立安装时复制整个技能文件夹；根目录 `assets/` 用于仓库首页，与技能内的产物模板不同，通用交接和评测材料按需另外取用。
 
 ## 修改与反馈
 

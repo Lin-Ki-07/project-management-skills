@@ -83,6 +83,8 @@ UI Skill 先展示和修订原型，再按职责拆分组件与状态，供前�
 
 “已有项目体检”附带 [体检记录模板](existing-project-review/assets/REVIEW.md) 和 [体检报告案例](existing-project-review/references/review-example.md)，用于区分已证实问题、待验证风险和可选优化，并整理最小修复与验收交接。案例为虚构试填。安装时复制整个 `existing-project-review` 文件夹以保留配套资源。
 
+“测试与版本收尾”附带 [验收与收尾模板](release-readiness/assets/ACCEPTANCE.md) 和 [版本收尾案例](release-readiness/references/closeout-example.md)，用于核对版本证据、记录阻碍与限制，并准备 Release 草稿。案例为虚构试填。安装时复制整个 `release-readiness` 文件夹以保留配套资源。
+
 ## 许可证
 
 本仓库采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），但须保留原版权声明和许可证文本。

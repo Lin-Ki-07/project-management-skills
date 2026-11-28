@@ -79,6 +79,8 @@ UI Skill 先展示和修订原型，再按职责拆分组件与状态，供前�
 
 “开发路线图与版本计划”附带 [路线图模板](development-roadmap/assets/ROADMAP.md) 和 [需求变更案例](development-roadmap/references/change-example.md)，用于安排小目标、保留步骤替代去向，并以证据入口衔接工作日志。案例是虚构试填，不是实际开发结果。安装时复制整个 `development-roadmap` 文件夹以保留配套资源。
 
+“从产品想法到 PRD”附带 [PRD 模板](product-discovery-to-prd/assets/PRD.md) 和 [需求收敛案例](product-discovery-to-prd/references/discovery-example.md)，展示从场景澄清、首版取舍到确认与路线图交接的过程。案例对话及确认均为虚构示意。安装时复制整个 `product-discovery-to-prd` 文件夹以保留配套资源。
+
 ## 许可证
 
 本仓库采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），但须保留原版权声明和许可证文本。

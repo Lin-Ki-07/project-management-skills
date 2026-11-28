@@ -81,6 +81,8 @@ UI Skill 先展示和修订原型，再按职责拆分组件与状态，供前�
 
 “从产品想法到 PRD”附带 [PRD 模板](product-discovery-to-prd/assets/PRD.md) 和 [需求收敛案例](product-discovery-to-prd/references/discovery-example.md)，展示从场景澄清、首版取舍到确认与路线图交接的过程。案例对话及确认均为虚构示意。安装时复制整个 `product-discovery-to-prd` 文件夹以保留配套资源。
 
+“已有项目体检”附带 [体检记录模板](existing-project-review/assets/REVIEW.md) 和 [体检报告案例](existing-project-review/references/review-example.md)，用于区分已证实问题、待验证风险和可选优化，并整理最小修复与验收交接。案例为虚构试填。安装时复制整个 `existing-project-review` 文件夹以保留配套资源。
+
 ## 许可证
 
 本仓库采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），但须保留原版权声明和许可证文本。

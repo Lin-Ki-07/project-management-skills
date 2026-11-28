@@ -75,6 +75,8 @@ UI Skill 先展示和修订原型，再按职责拆分组件与状态，供前�
 
 调整提示词或 Skill 时，可参考 [轻量评测方法](evaluation/README.md) 和 [案例记录模板](evaluation/CASE.md)，用真实任务比较改动前后的结果。评测方法目前是文档，尚未封装为独立 Skill。
 
+“小步开发与验收”已附带可复制的 [工作日志模板](incremental-development/assets/WORKLOG.md) 和 [修复案例](incremental-development/references/fix-example.md)。模板用于实际项目记录，案例展示问题、修改 diff 与验收之间的对应关系；案例为虚构示意，未作为真实应用执行验证。安装时复制整个 `incremental-development` 文件夹，以保留这些配套资源；已有项目日志时沿用现有格式。
+
 ## 许可证
 
 本仓库采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），但须保留原版权声明和许可证文本。
